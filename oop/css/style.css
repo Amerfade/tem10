@@ -1,0 +1,417 @@
+.w-100{
+    height: 80vh;
+}
+
+.carousel-item{
+    position: relative;
+}
+
+body{
+    height: 3000px;
+    overflow-x: hidden;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+} */
+
+
+.overlay{
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    position: absolute;
+    color: red;
+    background-color:grey;
+    width: 70%;
+    height: 150px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 10px;
+    opacity: .9;
+}
+/* .overlay{
+    width: 50%;
+    height: 90px;
+    border-radius: 5px;
+    background-color: green;
+    width: 170px;
+    height: 30px;
+    z-index: 2;
+    position: absolute; */
+
+.btn2{
+    z-index: 3;
+    background-color: rgb(0, 255, 0);
+    margin-top: 60px;
+    border-radius: 7px;
+    
+}
+.h2-2{
+    z-index: 3;
+    
+    color:white;
+    font-weight: 900;
+    
+}
+.Welcome{
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+}
+.Welcom-in{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+.h2-Welcome{
+    color: white;
+    margin-left: 20px;
+    line-height: 80px;
+}
+
+.p-Welcome{
+    color: white;
+    margin-left: 20px;
+}
+
+.btn-Welcome{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(19, 103, 221);
+    border-radius: 7px;
+    margin-left: 20px;
+    color: white;
+    border: none;
+}
+
+.Programming-language{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#selctor-one{
+    width: 100%;
+    height: 35px;
+}
+#selctor-one:hover{
+    background-color: black;
+    color: white;
+}
+/* -----------------------Python is very easy----------------------------- */
+
+.div-Python{
+    width: 100%;
+    height: 1000px;
+    background-color: grey;
+    position: relative;
+}
+
+.h2-Python{
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.python-1{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.736);
+    position: absolute;
+    top: 100px;
+    border-radius: 10px;
+}
+.h3-python{
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.btn-python{
+    background-color:rgba(0, 0, 0, 0.18);
+    margin-left: 20px;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+}
+.p-python{
+    font-weight: bold;
+    color: aqua;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+/* ///////////////////////////////// */
+
+.h2-Python-1{
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 340px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.div-java{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.736);
+    position: absolute;
+    top: 400px;
+    border-radius: 10px;
+}
+/* /////////////////////////////////////////////// */
+
+.h2-Javascript{
+    text-align: center;
+    position: absolute;
+    color: white;
+    top: 640px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.div-javascript{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.736);
+    position: absolute;
+    top: 700px;
+    border-radius: 10px;
+}
+
+
+/* //////////////////bacgroung fixed////////////////// */
+
+.bacground{
+   background-image:url(../img/pexels-felix-mittermeier-956999.jpg);
+   background-size: cover;
+   width: 100%;
+   height: 300px;
+   background-attachment:fixed;
+}
+/* ////////////////////////////////////////////// */
+.div-Good-basic{
+    width: 100%;
+    height: 100px;
+    background-color: grey;
+    position: relative;
+    border-radius: 0px 0px 7px 7px;
+}
+
+.h2-Good-basic{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: white;
+}
+
+.card-main{
+    width: 100%;
+    height: 1030px;
+    background-color: rgb(89, 107, 107);
+    border-radius: 5px;
+    /* margin:auto;
+    scroll-margin-bottom: none; */
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    
+    
+    
+    
+    
+}
+
+.card{
+    margin-left: 15px;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+    top: 30px;
+    position: absolute;
+
+    
+
+}
+
+/* .div-scrol{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-left: 0;
+    scroll-margin-bottom: none;
+} */
+
+/* ::-webkit-scrollbar-button{
+    display: none;
+} */
+
+.card-5-7{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+.div-bacround{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img//cyber-attack-with-unrecognizable-hooded-hacker-using-virtual-reality-digital-glitch-effect.jpg);
+    background-attachment: fixed;
+
+}
+/* ////////////////////////////////////////////// */
+
+.Thanks{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(99, 94, 87);
+    position: relative;
+}
+
+.line1{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    
+    background-color: rgba(60, 57, 57, 0.705);
+    top: 20px;
+    z-index: 3;
+}
+
+.div-Thanks{
+    width: 250px;
+    height: 300px;
+    background-color: brown;
+    position: absolute;
+    top: 70px;
+    border-radius: 7px;
+
+}
+
+
+.div-img1-Thanks{
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    
+
+}
+
+.img-Thanks{
+    width: 230px;
+    height: 250px;
+   
+
+}
+
+.card-img{
+    position: absolute;
+    left: 100px;
+}
+
+/* .Dr{
+    position: absolute;
+    left: 120px;
+    top: 330px;
+    color: white;
+}
+
+.div-dr{
+    position: absolute;
+    top: 90px;
+    display: flex;
+    
+} */
+
+.item-card{
+    display: flex;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    position: absolute;
+    
+}
+
+.h3-Thanks{
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%,0);
+    color: white;
+}
+
+.im-card2{
+    width: 200px;
+    height: 300px;
+}
+
+/* .card-img-top{
+width: 270px;
+height: 300px;
+} */
+
+.line2{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    
+    background-color: rgba(60, 57, 57, 0.705);
+    top: 500px;
+    z-index: 3;
+}
+
+
+
+/* 
+@media screen {
+    #dd{
+        
+        background-color: blueviolet;
+        display: block;
+        height: 400px;
+        margin-left: 200px;
+        
+    }
+} */
+
+
+.cc{
+    width: 100%;
+    height: auto;
+    background-color: rgb(50, 36, 36);
+}
+
+.mm{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
